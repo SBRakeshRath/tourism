@@ -1,5 +1,4 @@
-const mapboxApiKey =
-  "pk.eyJ1Ijoic2JyYWtlc2hyYXRoIiwiYSI6ImNsbWxyNWhyNzBndjAyaWw4dG12c2J1anoifQ.GGjKhUFn5_CwCjgmAE5vqw";
+const mapboxApiKey = "API_KEY_GOES_HERE";
 
 // const address =
 //   '6RRJ+XWG, Barhadanda Road, Old Town, Bhubaneswar, Odisha 751002'
@@ -21,7 +20,5 @@ async function addressToCoordinate(address) {
   }
 }
 
-
-export default addressToCoordinate
+export default addressToCoordinate;
 // console.log(await addressToCoordinate(address));
-
